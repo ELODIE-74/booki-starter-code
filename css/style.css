@@ -147,6 +147,11 @@ form{
     
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -509,7 +514,7 @@ li{
         justify-content: space-between;
     }
 
-    .populaires-cards .card {
+    .populaires-cards a {
         width: 30%;
     }
 
