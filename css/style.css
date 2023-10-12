@@ -659,6 +659,7 @@ li {
     font-size: medium;
     font-size: 16px;
   }
+
   .renseignement {
     text-align: justify;
     width: 100%;
@@ -688,8 +689,7 @@ li {
   }
   /** Search Bar **/
   .search {
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-right: 8px;
   }
   .positionsearch {
     display: flex;
@@ -701,6 +701,7 @@ li {
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 1px;
+    position: inherit;
   }
   .logoposition {
     width: 20px;
