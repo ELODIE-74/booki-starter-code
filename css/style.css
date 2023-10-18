@@ -770,7 +770,6 @@ li {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   body {
-    width: 320px;
     margin: 0;
   }
 
@@ -788,34 +787,32 @@ li {
     height: 19px;
     padding: 30px 0;
     padding-top: 5px;
-    margin-left: 20px;
+    margin-left: 18px;
   }
   nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     border-bottom: solid 2px #d9d9d9;
-    width: 320px;
     padding-bottom: 20px;
+    width: 145%;
   }
   nav a {
     font-size: medium;
     margin-right: 40px;
   }
   .renseignement {
-    text-align: justify;
-    width: 300px;
+    margin-right: 0;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: small;
+    width: 135%;
   }
   h1 {
-    width: 312px;
-    height: 15%;
+    width: 135%;
     margin-bottom: 10px;
-    font-size: large;
+    font-size: medium;
     text-align: center;
-    margin-left: 10px;
   }
   h1,
   .renseignement {
@@ -824,6 +821,7 @@ li {
     margin-top: 1px;
     margin-bottom: 5px;
     text-align: center;
+    margin-left: 12px;
   }
   .renseignement,
   .positionsearch {
@@ -852,11 +850,11 @@ li {
     text-align: center;
     border: 1px;
     font-family: "Raleway";
-    width: 350px;
+    width: 360px;
   }
   .infogroupbar form .input {
-    width: 500px;
-    height: 49px;
+    width: 100%;
+    height: 20%;
   }
   .infogroupbar form ::placeholder {
     color: var(--color-police);
@@ -906,14 +904,14 @@ li {
   .filterBar {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 20px;
     padding-top: 20px;
     width: 100%;
-    height: 160px;
+    height: 1000%;
     margin-left: 12px;
-    margin-right: 12px;
   }
   .filterBarContent {
     display: grid;
@@ -921,8 +919,6 @@ li {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 8px;
     grid-row-gap: 8px;
-    margin-top: 10px;
-    margin-right: 70px;
   }
   .buttonfilterbar {
     display: flex;
@@ -935,7 +931,7 @@ li {
     font-size: small;
     padding: 12px 14px 12px 14px;
     padding-top: 15px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
   .buttonfilterbar:hover {
     background-color: var(--filter-bg-color);
@@ -954,8 +950,8 @@ li {
     flex-direction: row;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 300px;
-    height: 60px;
+    width: 135%;
+    height: 35%;
     font-size: small;
   }
   */
@@ -967,7 +963,8 @@ li {
   }
 
   .hebergements {
-    width: 320px;
+    width: 100%;
+    font-size: medium;
   }
 
   .hebergements-cards .cardh {
@@ -981,13 +978,13 @@ li {
   }
 
   .cardh {
-    width: 300px;
-    height: 155px;
+    width: 50%;
+    height: 50%;
     margin-right: 30px;
   }
   .cardh img {
     width: 100%;
-    height: 80px;
+    height: 90px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: cover;
@@ -999,14 +996,14 @@ li {
 
   /**section populaires**/
   .populaires {
-    width: 320px;
+    width: 100%;
     margin: 0;
   }
   .populaires-cards {
     display: flex;
     flex-direction: column;
     font-size: small;
-    width: 250px;
+    width: 100%;
   }
   .populaires-cards .card {
     width: 100%;
@@ -1035,7 +1032,7 @@ li {
   }
   /**sections hebergements and populaires**/
   .hebergements-and-populaires {
-    width: 320px;
+    width: 146%;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -1051,7 +1048,10 @@ li {
     font-size: large;
     cursor: pointer;
   }
-
+  .hebergements-and-populaires section,
+  .activites-title {
+    margin-top: 15px;
+  }
   .activites-title,
   .content-activites {
     margin-bottom: 15px;
@@ -1070,7 +1070,7 @@ li {
     justify-content: center;
     margin-left: 20px;
     margin-bottom: 40px;
-    width: 320px;
+    width: 145%;
   }
   .cardc {
     border: 1px solid transparent;
@@ -1097,7 +1097,7 @@ li {
   }
   .list {
     justify-content: center;
-    width: 350px;
+    width: 100%;
     padding: 40px;
     padding-top: 15px;
     flex-direction: row;
@@ -1108,7 +1108,7 @@ li {
     justify-content: start;
     padding-left: 40px;
     padding-top: 20px;
-    width: 200px;
+    width: 100%;
     height: 15px;
   }
   h5,
