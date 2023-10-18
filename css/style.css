@@ -393,6 +393,7 @@ li {
 
   header {
     margin-top: 10px;
+    width : 65%;
   }
   /*Partie header*/
   .logobooki {
@@ -403,8 +404,8 @@ li {
   nav {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    /*align-items: center;*/
+    
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -496,7 +497,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 10%;
+    width: 30%;
     height: 25px;
   }
   .filterbar,
@@ -519,7 +520,7 @@ li {
     border-radius: 2em;
     border-color: var(--main-bg-color);
     width: 200px;
-    height: 20px;
+    height: 22px;
     font-size: 6px;
     margin-right: 10px;
     padding-left: 10px;
@@ -723,24 +724,21 @@ footer{
     margin-left: 10px;
 }
 .list{
-    margin-left : 30px;
+    margin-left : 20px;
     font-size : 0.6em;
 }
 ul {
     justify-content: flex-start;
-    /*padding-left: 25px;
-    padding-right: 25px;*/
+    
   }
 h5 {
     font-size: 0.6em;
     justify-content: flex-start;
-    margin-left: 30px;
+    margin-left: 20px;
     padding-right: 100px;
     margin-bottom: 5px;
   }
-/*.list{
-    margin-left: 30px;
-}*/
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   body {
