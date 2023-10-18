@@ -383,24 +383,21 @@ li {
 @media (min-width: 767px) and (max-width: 1024px) {
   body {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 40%;
   }
   .main-container {
-    margin-left: 15px;
+    margin-left: 10px;
     margin-right: 5px;
   }
 
   header {
-    margin-top: -10px;
+    margin-top: 10px;
   }
   /*Partie header*/
   .logobooki {
-    width: 20px;
-    height: 10px;
+    width: 30px;
+    height: 15px;
   }
 
   nav {
@@ -415,7 +412,7 @@ li {
   nav a {
     margin-left: 15px;
     color: var(--color-police);
-    font-size: 6px;
+    font-size: 0.6em;
   }
 
   nav a:hover {
@@ -431,10 +428,10 @@ li {
   /*Partie searchBar*/
   .renseignement {
     font-weight: lighter;
-    font-size: 6px;
+    font-size: 0.6em;
   }
   .textinfo {
-    font-size: 8px;
+    font-size: 0.6em;
   }
 
   .logoposition {
@@ -554,10 +551,10 @@ li {
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
-    margin-bottom: -10px;
-    width: 400px;
+    margin-bottom: 5px;
+    width: 100%;
     height: 60px;
-    font-size: 8px;
+    font-size: 0.6em;
   }
   .hebergements-and-populaires {
     display: flex;
@@ -569,12 +566,12 @@ li {
     margin-top: -5px;
   }
   .section-title {
-    font-size: 8px;
+    font-size: 0.6em;
     padding-top: -100px;
   }
   .hebergements {
-    width: 100%;
-    height: 230px;
+    width: 65%;
+    height: 350px;
   }
   .cardh {
     margin-right: -10px;
@@ -584,23 +581,26 @@ li {
     padding: 1px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     margin-top: 5px;
-    width: 80px;
-    height: 60px;
+    width: 90%;
+    height: 120px;
     margin-bottom: 10px;
+    padding: 5px;
   }
   .cardh img {
     width: 100%;
-    height: 30px;
+    height: 60px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding-top: -20px;
     object-fit: cover;
   }
   .directionrowcolumn1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: max-content 130px 1fr 1fr;
-    column-gap: 20px;
+    column-gap: 22px;
     row-gap: 5px;
+    margin-right: -10px;
   }
   .hebergements-cards {
     padding-right: 1px;
@@ -618,17 +618,18 @@ li {
     height: 5px;
     margin-top: -9px;
     margin-bottom: 4px;
-    font-size: 6px;
+    font-size: 0.6em;
     margin-left: -6px;
   }
   .cardh-subtitle {
-    font-size: 6px;
+    font-size: 0.6em;
     height: 15px;
     margin-left: -6px;
   }
   .card-rating {
-    font-size: 5px;
-    margin-left: -5px;
+    margin-top: 15px;
+    font-size: 0.6em;
+    margin-left: -3px;
   }
   .Affiche {
     margin-top: -100px;
@@ -642,69 +643,43 @@ li {
   }
 
   /*********SECTION POPULAIRES************/
-  .populaires,
-  .populaires-title {
-    margin-top: -15px;
-  }
-  .populaires-title {
-    margin-left: -15px;
-  }
-  .populaires-title,
-  .populaires-cards {
-    margin-top: -15px;
-  }
   .populaires {
-    width: 100%;
-    height: 120px;
     margin-top: 15px;
+    width: 65%;
   }
-
   .populaires-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: -10px;
   }
-
+  .card {
+    width: 150px;
+    height: 100px;
+    padding-right: 15px;
+    margin-left: -10px;
+  }
+  .card-content {
+    font-size: 0.6em;
+    margin-left: -4px;
+    margin-bottom: 15px;
+  }
   .populaires-cards .card-title {
-    font-size: 6px;
+    font-size: 1em;
   }
 
   .populaires-cards .card-subtitle {
-    font-size: 6px;
+    font-size: 0.9em;
   }
 
   .populaires-cards img {
     width: 33%;
-    height: 50px;
+    height: 100px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
-  .card {
-    width: 85px;
-    height: 50px;
-    margin-left: -22px;
-    margin-right: 28px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-left: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-  }
-  .card-content {
-    font-size: 5px;
-    margin-left: -9px;
-    margin-top: -9px;
-    margin-bottom: 15px;
-  }
-  .fa-star {
-    margin-left: 4px;
-    margin-top: 2px;
-  }
-
-  /*section activites*/
+/*section activites*/
   .activites-title,
   .content-activites {
     margin-bottom: 2px;
@@ -721,52 +696,51 @@ li {
     justify-content: center;
     width: 95%;
     padding-left: 10px;
+    margin-left: -130px;
   }
   .cardc {
-    width: 300px;
-    min-height: 80px;
+    width: 120px;
+    min-height: 160px;
     border-radius: 15px;
     padding-top: -2px;
+    margin-right : 20px;
   }
   .cardc img {
     width: 100%;
-    height: 50px;
+    height: 130px;
     object-fit: cover;
   }
   .card-txtc {
-    font-size: 6px;
-    margin-left: -15px;
+    font-size: 0.7em;
+    margin-left: -10px;
   }
-  footer {
-    margin-top: 25px;
-    margin-left: -15px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    /*width: %;*/
+
+footer{
+    width : 50%;
+    margin-left: -18px;
+}
+.footer-content{
+    margin-left: 10px;
+}
+.list{
+    margin-left : 30px;
+    font-size : 0.6em;
+}
+ul {
+    justify-content: flex-start;
+    /*padding-left: 25px;
+    padding-right: 25px;*/
   }
-  .footer-content {
-    flex-direction: column;
-  }
-  .footer-content a:hover {
-    text-decoration: none;
-  }
-  .list {
-    font-size: 6px;
-  }
-  h5 {
-    font-size: 6px;
-    justify-content: start;
-    padding-left: 25px;
+h5 {
+    font-size: 0.6em;
+    justify-content: flex-start;
+    margin-left: 30px;
+    padding-right: 100px;
     margin-bottom: 5px;
   }
-  ul {
-    justify-content: flex-start;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-}
-
+/*.list{
+    margin-left: 30px;
+}*/
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   body {
