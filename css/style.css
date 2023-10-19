@@ -422,6 +422,7 @@ li {
     height: 19px;
     padding: 10px 0;
     margin-bottom: 5px;
+    margin-left: 20px;
   }
   nav {
     display: flex;
@@ -434,6 +435,7 @@ li {
   nav a {
     font-size: medium;
     text-align: center;
+    margin-right: 25px;
   }
   /*section infogroupbar*/
   .infogroupbar {
