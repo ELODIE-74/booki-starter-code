@@ -418,7 +418,8 @@ li {
   nav img {
     width: 61px;
     height: 19px;
-    padding: 30px 0;
+    padding: 10px 0;
+    margin-bottom: 5px;
   }
   nav {
     display: flex;
@@ -428,6 +429,10 @@ li {
     padding-bottom: 20px;
     width: 100%;
   }
+  nav a {
+    font-size: medium;
+    text-align: center;
+  }
   /*section infogroupbar*/
   .infogroupbar {
     width: 100%;
@@ -436,8 +441,18 @@ li {
   .renseignement {
     font-size: 15px;
     margin-top: 0;
+    text-align: center;
   }
 
+  .infogroupbar form .positionsearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .infogroupbar form .logoposition {
+    width: 20px;
+    height: 25px;
+  }
   .infogroupbar form .buttonloupe {
     display: block;
     background-color: var(--main-color);
@@ -465,9 +480,40 @@ li {
   }
   .filterBar {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+  }
+  /*.filterBarContent {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    margin-bottom: 15px;
+  }*/
+  .buttonfilterbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--color-background);
+    border-radius: 2em;
+    border-color: var(--main-bg-color);
+    width: 130px;
+    height: 50px;
+    font-size: small;
+    padding: 12px 14px 12px 14px;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  /*.filterBar {
+    display: flex;
     justify-content: flex-start;
     align-items: center;
   }
+
   .filterBarContent {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -477,7 +523,7 @@ li {
   }
   .buttonfilterbar {
     margin-top: 25px;
-  }
+  }*/
   /*section hebergements*/
   .hebergements {
     width: 100%;
