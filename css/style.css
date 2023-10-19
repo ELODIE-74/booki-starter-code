@@ -401,6 +401,7 @@ li {
     justify-content: center;
     width: 100%;
     margin: 0;
+    padding: 0;
   }
   .main-container {
     margin: 0;
@@ -437,6 +438,7 @@ li {
   /*section infogroupbar*/
   .infogroupbar {
     width: 100%;
+    height: 450px;
   }
   .textinfo,
   .renseignement {
@@ -488,7 +490,18 @@ li {
     margin: 0;
     width: 100%;
   }
-
+  .filterBarContent {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    padding-left: 6px;
+  }
+  .filterBarContent,
+  .buttonfilterbar {
+    padding-top: 0;
+  }
   .buttonfilterbar {
     display: flex;
     justify-content: space-evenly;
@@ -502,22 +515,10 @@ li {
     padding-top: 15px;
     margin-top: 10px;
   }
-  /*.filterBar {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  .infoBar {
+    width: 100%;
+    text-align: center;
   }
-
-  .filterBarContent {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 8px;
-    grid-row-gap: 8px;
-  }
-  .buttonfilterbar {
-    margin-top: 25px;
-  }*/
   /*section hebergements*/
   .hebergements {
     width: 100%;
@@ -556,6 +557,7 @@ li {
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;
   }
   .cardc {
     width: 100%;
