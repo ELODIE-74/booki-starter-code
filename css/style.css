@@ -400,6 +400,7 @@ li {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    margin: 0;
   }
   .main-container {
     margin: 0;
@@ -487,14 +488,7 @@ li {
     margin: 0;
     width: 100%;
   }
-  /*.filterBarContent {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 8px;
-    grid-row-gap: 8px;
-    margin-bottom: 15px;
-  }*/
+
   .buttonfilterbar {
     display: flex;
     justify-content: space-evenly;
@@ -539,6 +533,8 @@ li {
   /*section populaires*/
   *.populaires {
     width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   /*les deux*/
@@ -558,6 +554,16 @@ li {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .cardc {
+    width: 100%;
+    min-height: 110px;
+  }
+  .cardc img {
+    width: 100%;
+    height: 150px;
   }
   /*footer*/
   footer {
@@ -565,5 +571,13 @@ li {
     flex-direction: column;
     background-color: var(--main-bg-color);
     margin-top: 10px;
+  }
+  .list {
+    margin-right: 0;
+  }
+  h5,
+  ul {
+    padding-left: 0;
+    margin-left: 10px;
   }
 }
