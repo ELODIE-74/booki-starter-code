@@ -34,83 +34,76 @@
   </head>
 
   <body>
-    <div class="main-container">
-      <header>
-        <nav>
+    <header>
+      <nav>
+        <div class="logo">
           <img
             class="logobooki"
             src="images/logo/Booki@3x.png"
             alt="logo Booki"
           />
+        </div>
 
-          <div>
-            <a href="#hebergements">Hébergements</a>
-            <a href="#activites">Activités</a>
-          </div>
-        </nav>
-      </header>
+        <div class="menus">
+          <a href="#hebergements">Hébergements</a>
+          <a href="#activites">Activités</a>
+        </div>
+      </nav>
+    </header>
 
-      <div class="infogroupbar">
-        <section class="infogroup">
-          <h1 class="textinfo">
-            Trouvez votre hébergement pour des vacances de rêve
-          </h1>
-          <h2 class="renseignement">
-            En plein centre-ville ou en pleine nature
-          </h2>
+    <div class="infogroupbar">
+        <div class="headline">
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <h2>En plein centre-ville ou en pleine nature</h2>
+        </div>
 
-          <form method="get" action="post">
-            <div class="search">
-              <p class="positionsearch">
-                <label class="logoposition" for="site-search">
-                  <img
-                    src="images/logo/Vector.svg"
-                    alt="logo Vector position"
-                  />
-                </label>
-                <input
-                  class="textesearch"
-                  type="search"
-                  id="site-search"
-                  name="q"
-                  placeholder="Marseille,France"
-                  size="20"
-                  maxlength="10"
-                />
+    <div class="search">
+      <p>
+      <form method="get" action="post">
+            <label for="site-search">
+              <img src="images/logo/Vector.svg" alt="logo Vector position" />
+            </label>
+            <input
+              class="textsearch"
+              type="search"
+              id="site-search"
+              name="q"
+              placeholder="Marseille,France"
+              size="20"
+              maxlength="10"
+            />
 
-                <button class="buttonresearch" type="submit">
-                  <strong>Rechercher</strong>
-                </button>
-                <button class="buttonloupe">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-              </p>
-            </div>
-          </form>
+            <button class="buttonresearch" type="submit">
+              <strong>Rechercher</strong>
+            </button>
+            <button class="buttonloupe">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+       </form>
+       </p>
+    </div>
 
-          <div class="filterBar">
-            <h3 class="titlefiltrebar">Filtres</h3>
-            <div class="filterBarContent">
-              <button class="buttonfilterbar">
-                <i class="fa-solid fa-money-bill-wave"></i>
-                <strong>Économique</strong>
-              </button>
-              <button class="buttonfilterbar">
-                <i class="fa-solid fa-person"></i><strong>Familial</strong>
-              </button>
-              <button class="buttonfilterbar">
-                <i class="fa-solid fa-heart"></i><strong>Romantique</strong>
-              </button>
-              <button class="buttonfilterbar">
-                <i class="fa-solid fa-fire"></i><strong>Nos pépites</strong>
-              </button>
-            </div>
-          </div>
-          <div class="infoBar">
-            <i class="fa-solid fa-info cercleinfo"></i>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
-          </div>
-        </section>
+      <div class="filterBarContent">
+        <h3>Filtres</h3>
+          <p class="buttonfilterbar">
+            <i class="fa-solid fa-money-bill-wave"></i>
+            <strong>Économique</strong>
+          </p>
+          <p class="buttonfilterbar">
+            <i class="fa-solid fa-person"></i><strong>Familial</strong>
+          </p>
+          <p class="buttonfilterbar">
+            <i class="fa-solid fa-heart"></i><strong>Romantique</strong>
+          </p>
+          <p class="buttonfilterbar">
+            <i class="fa-solid fa-fire"></i><strong>Nos pépites</strong>
+          </p>
+      </div>
+      <div class="infoBar">
+        <p>
+        <i class="fa-solid fa-info cercleinfo"></i>
+        Plus de 500 logements sont disponibles dans cette ville
+        </p>
       </div>
 
       <main>
@@ -416,7 +409,7 @@
         </div>
         <!--section activités-->
         <section class="activites-section" id="activites">
-          <h2 class="activites-title">Activités à Marseille</h2>
+          <h2>Activités à Marseille</h2>
           <div class="content-activites">
             <article class="cardc">
               <a href="#">
