@@ -379,28 +379,6 @@ h5,
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /*.infogroupbar form .buttonloupe {
-    display: block;
-    background-color: var(--main-color);
-    border-radius: 20px;
-    width: 50px;
-    height: 49px;
-    padding-left: 1px;
-    padding-bottom: 1px;
-    margin-right: 1px;
-  }
-  .infogroupbar form i.fa-solid.fa-magnifying-glass {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 49px;
-    height: 49px;
-    color: var(--color-background);
-    font-size: 17px;
-    background-color: transparent;
-    border-radius: 15px;
-    padding-bottom: 8px;
-  }*/
   body {
     width: 85vh;
     font-size: x-large;
@@ -439,6 +417,52 @@ h5,
     margin-top: 15px;
     text-align: center;
   }
+  form {
+    justify-content: center;
+    margin-top: 15px;
+  }
+  form img {
+    width: 60px;
+    height: 48px;
+    padding: 15px 16px 15px 16px;
+    border: 1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: var(--main-bg-color);
+  }
+  form .textsearch {
+    width: 80vh;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    border: transparent;
+    font-size: xx-large;
+    padding: 2px;
+  }
+  .infogroupbar form .buttonloupe {
+    display: block;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    width: 80px;
+    height: 75px;
+  }
+  .infogroupbar form i.fa-solid.fa-magnifying-glass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    color: var(--color-background);
+    font-size: xx-large;
+    background-color: transparent;
+    border-radius: 15px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+  }
+  .buttonresearch {
+    display: none;
+  }
+
   .filterBar {
     display: flex;
     flex-direction: column;
