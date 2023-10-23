@@ -405,6 +405,9 @@ h5,
     width: 85vh;
     font-size: x-large;
   }
+  header {
+    height: 15vh;
+  }
   header nav a:hover {
     border-top: 0;
     text-decoration: underline var(--main-color);
@@ -416,6 +419,7 @@ h5,
   header img {
     width: 25vh;
     height: 4vh;
+    padding-bottom: 30px;
   }
   header nav {
     display: flex;
@@ -428,7 +432,7 @@ h5,
   header nav a {
     font-size: xx-large;
     text-align: center;
-    margin-right: 25px;
+    margin-right: 6vh;
   }
   .textinfo,
   .renseignement {
