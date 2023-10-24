@@ -16,7 +16,7 @@
 }
 body {
   margin: 0;
-  padding: 40px;
+  padding: 50px;
 }
 a {
   color: inherit;
@@ -178,38 +178,47 @@ form .buttonresearch {
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
+  background-color: var(--main-bg-color);
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+  padding-right: 0;
 }
-
-.cardh {
+.cardheberegements {
+  width: 290px;
+  height: 240px;
   background-color: var(--color-background);
   border-radius: 20px;
-  padding: 5px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-  margin-top: 25px;
-  width: 75%;
-  height: 230px;
+  margin-top: 10px;
+  padding: 5px;
 }
-.cardh img {
+.cardheberegements img {
   width: 100%;
-  height: 120px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  height: 130px;
   object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
-.directionrowcolumn1 {
+.card-contenthebergements .cardh-title {
+  margin-top: 5px;
+  padding-bottom: 1px;
+}
+.orientationcards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: max-content 190px 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 5px;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 9px;
+  row-gap: 10px;
+  margin-left: 15px;
 }
-.hebergements-cards,
-.cardh-contenth {
-  width: 122vh;
-  padding-left: 3px;
-}
-.hebergements-cards .cardh-txt {
-  font-size: 0.9em;
+
+.Affiche {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
 }
 /****** Populaires ***********/
 .populaires {
@@ -251,12 +260,6 @@ form .buttonresearch {
 }
 .populaires-cards .card-rating {
   margin-bottom: 5px;
-}
-.Affiche {
-  padding-top: 60px;
-  font-weight: bold;
-  font-size: large;
-  cursor: pointer;
 }
 
 /*section activites avec des cartes activités*/
