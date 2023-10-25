@@ -422,6 +422,7 @@ h5,
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    justify-content: flex-start;
   }
   header {
     width: 100%;
@@ -452,9 +453,7 @@ h5,
   }
   /*header*/
   /*infogroupbar*/
-  .headline {
-    width: 40vh;
-  }
+
   .headline h1 {
     padding-top: 40px;
   }
