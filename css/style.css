@@ -110,7 +110,7 @@ form .buttonresearch {
   margin-right: 15px;
   background-color: #f1f5f9;
   border-radius: 1.5em;
-  border-color: 1px solid var(--color-button);
+  border: solid var(--color-button);
   width: 140px;
   height: 25px;
   padding: 10px 11px 10px 11px;
@@ -428,7 +428,6 @@ h5,
   .main-container {
     padding: 0 0px;
     margin: 0;
-    box-sizing: none;
     min-width: 320px;
     max-width: 768px;
   }
@@ -523,13 +522,14 @@ h5,
   .filterBarContent {
     display: flex;
     flex-direction: column;
-    padding-left: 12px;
+    padding-left: 10px;
   }
   .filterBarContent .buttonfilterbar {
     font-size: small;
-    width: 160px;
-    height: 35px;
-    padding-bottom: 0.5px;
+    width: 140px;
+    height: 25px;
+    padding-bottom: 1px;
+    vertical-align: middle;
   }
   .orientationfilterBar {
     display: grid;
@@ -540,9 +540,10 @@ h5,
     justify-content: space-between;
     margin: 0;
     column-gap: 0px;
+    padding-left: 15px;
   }
   .orientationfilterBar .buttonfilterbar {
-    width: 50%;
+    width: 80%;
   }
   .buttonfilterbar:hover {
     background-color: var(--filter-bg-color);
