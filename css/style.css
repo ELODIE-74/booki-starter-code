@@ -381,11 +381,6 @@ h5,
     width: 100%;
   }
 
-  .populaires {
-    width: 100%;
-    margin-top: 50px;
-  }
-
   .populaires-cards {
     display: flex;
     flex-direction: row;
@@ -400,7 +395,7 @@ h5,
     width: 100%;
   }
   .populaires-cards .card {
-    width: 250px;
+    width: 185px;
   }
 
   .populaires-cards .card-title {
