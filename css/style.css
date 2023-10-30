@@ -416,6 +416,9 @@ h5,
   .cardactivites img {
     height: 200px;
   }
+  footer {
+    font-size: small;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -440,7 +443,7 @@ h5,
     width: 100%;
   }*/
   header img {
-    margin-left: 10px;
+    margin-left: 15px;
   }
   header nav {
     display: flex;
@@ -453,7 +456,7 @@ h5,
   }
   header nav a {
     margin-left: 15px;
-    padding-right: 25px;
+    padding-right: 35px;
   }
   header nav a:hover {
     border-top: 0;
@@ -463,6 +466,7 @@ h5,
     text-decoration-color: var(--main-color);
     text-underline-offset: 1.5em;
   }
+
   /*header*/
   /*infogroupbar*/
 
@@ -483,6 +487,9 @@ h5,
   .infogroupbar form {
     margin-left: 12px;
     margin-right: 12px;
+  }
+  .infogroupbar .textsearch {
+    width: 100%;
   }
   .infogroupbar form .buttonloupe {
     display: block;
@@ -628,7 +635,7 @@ h5,
     flex-direction: column;
     background-color: var(--main-bg-color);
     margin-top: 20px;
-    font-size: large;
+    font-size: small;
     padding-left: 30px;
   }
 }
